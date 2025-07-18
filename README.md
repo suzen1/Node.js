@@ -14,5 +14,3 @@ This is a simple task manager web application built with **Node.js**, **Express*
 
 ---
 
-## 📂 Project Structure
-
