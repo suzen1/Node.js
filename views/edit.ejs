@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <div class="from p-10 text-white gap-4 bg-zinc-700 w-full min-h-screen capitalize">
+        <form action="/edit" method="POST">
+<input type="text" name="old" value="<%= oldTitle %>" placeholder="Old Title" class="px-2 w-full bg-white text-black rounded-md mb-2" readonly>
+
+            <input type="text" name="new" placeholder="New Title"  class="px-2 w-full bg-white outline-none text-black block rounded-md mb-2">
+            <button type="submit" class="bg-blue-600 text-black rounded-full px-1 py-1.5 mt-2">Click Me</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
